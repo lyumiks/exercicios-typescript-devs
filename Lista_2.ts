@@ -102,7 +102,7 @@ function getUser() {
 
 type UserReturnType = ReturnType<typeof getUser>;
 
-const user: UserReturnType = getUser();
+const user_: UserReturnType = getUser();
 
 //Exercício 11 - Pegando o Tipo de Instância de uma Classe
 
